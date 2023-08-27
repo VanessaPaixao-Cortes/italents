@@ -149,6 +149,11 @@ article#destaque2 {
     height: 320px;
 }
 
+article#destaque6 {
+    margin-top: -5%;
+    height: 100px;
+}
+
 h1#destaque2 {
     color: azure;
 }

@@ -36,7 +36,7 @@
                 <li>
                     <a href="#destaque3">Nossos Profissionais</a>
                 </li>
-                <!-- Menu Página com a API -->
+                <!-- Menu para Página com a API -->
                 <li>
                     <a href="#destaque3">Nossos Clientes</a>
                 </li>
@@ -176,7 +176,71 @@
             </div>
         </article>
 
+        <!-- Formulário de contato com campos validados pelo JS -->
 
+        <article id="contato" class="largura-cheia">
+            <div class="quadradocontato esquerda">
+                <br>
+                <br>
+                <h2 class="branco" style="text-align:center; ">Endereço e Contato:</h2>
+                <div style="text-align:center; ">
+
+                    <!-- Link para Google Maps -->
+
+                    <iframe id="mapa"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.702099141301!2d-51.16332708488554!3d-30.01670918189239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951977759e10b277%3A0x765c39402e8d0ff0!2sR.+Ant%C3%B4nio+Joaquim+Mesquita%2C+570+-+Passo+d&#39;Areia%2C+Porto+Alegre+-+RS%2C+91350-180!5e0!3m2!1spt-BR!2sbr!4v1541620150798"
+                        allowfullscreen></iframe>
+                </div>
+                <p class="branco">Endereço: Rua Antônio Joaquim Mesquita 570</p>
+                <p class="branco">Telefone: (51) 9999-9999</p>
+                <p class="branco">WhatsApp: (51) 9999-9999</p>
+                <p class="branco">Email: auqmia@auqmia.com.br</p>
+                <br>
+
+                <!-- Links para redes sociais -->
+
+                <div class="centro">
+                    <a href="https://pt-br.facebook.com/">
+                        <img class="icon" alt="icon 1" src="img/face.png">
+                    </a>
+                </div>
+                <p class="branco">Facebook: auqmia </p>
+                <div class="centro">
+                    <a href="https://www.instagram.com/?hl=pt-br">
+                        <img class="icon" alt="icon 2" src="img/insta.png">
+                    </a>
+                </div>
+                <p class="branco">Instagram: @auqmia</p>
+            </div>
+            <div class="quadradocontato direita">
+                <br>
+                <br>
+                <h2 class="branco" style="text-align:center; margin-right:140px;">Fale conosco:</h2>
+                <form name="form1" class="branco">
+                    <br> Nome:
+                    <br>
+                    <input type="text" size="80" name="nome" id="nome" class="borda">
+                    <br> Email:
+                    <br>
+                    <input type="text" size="80" name="email" id="email" class="borda">
+                    <br> Telefone:
+                    <br>
+                    <input type="text" name="telefone" id="telefone" class="borda">
+                    <br> Endereço:
+                    <br>
+                    <input type="text" size="80" name="endereco" id="endereco" class="borda">
+                    <br> Assunto:
+                    <br>
+                    <input type="text" size="80" name="assunto" id="assunto" class="borda">
+                    <br> Mensagem:
+                    <br>
+                    <textarea name="mensagem" rows="8" cols="73" class="borda"></textarea>
+                    <br>
+                    <br>
+                    <input type="button" value="Enviar" onClick="valida(this.form)" class="borda botao">
+                </form>
+            </div>
+        </article>
     </section>
 
     <!-- Rodapé -->
