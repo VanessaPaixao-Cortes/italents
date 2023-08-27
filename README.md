@@ -44,8 +44,6 @@ O projeto tem por objetivo a avaliação e prática dos conhecimentos adquiridos
 
 - `javascript`, `css` e `html`.
 
- <img src = 'https://github.com/VanessaPaixao-Cortes/VanessaPaixao-Cortes/blob/main/images/bootstrap.svg' width='30'/>  <img src = 'https://github.com/VanessaPaixao-Cortes/VanessaPaixao-Cortes/blob/main/images/css.svg' width='30'/> <img src = 'https://github.com/VanessaPaixao-Cortes/VanessaPaixao-Cortes/blob/main/images/html.svg' width='30'/>
-
 ---
 
 ## ANTES DE INICIALIZAR A APLICAÇÃO:

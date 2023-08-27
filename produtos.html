@@ -12,18 +12,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- aplicação responsiva -->
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="store.css" />
-    <script src="./helpers/fetchItem.js" defer></script>
-    <script src="./helpers/fetchProducts.js" defer></script>
-    <script src="./helpers/saveCartItems.js" defer></script>
-    <script src="./helpers/getSavedCartItems.js" defer></script>
-    <script src="./helpers/script.js" defer></script>
+    <script src="./loja/script.js" defer></script>
 </head>
-
-<!-- Carregamento inicial da função slide1() -->
 
 <body>
 
-    <!-- Terceira seção destaque -->
+
 
     <header><!-- -->
         <a href="index.html">
@@ -48,8 +42,14 @@
             </ul>
         </nav>
     </header>
+
+    <!-- Ecommerce de produtos pet -->
     <section>
 
+        <article id="destaque6" class="largura-cheia amarelo imgtext">
+
+            <h2 class="titulocentro"> Nossos Produtos</h2>
+        </article>
 
         <!-- Slides com click para alternar a visualização dos produtos -->
 
@@ -96,17 +96,24 @@
         <article class="largura-cheia contato">
             <section class="items"></section>
             <section class="cart">
-                <span class="cart__title">Carrinho de compras</span>
+                <section class="cart-subtotal">
+                    <span class="cart__title">Carrinho de compras</span>
+                    <br><br><br>
+                </section>
+                <ol class="cart__items"></ol>
+                <br><br>
+                <span>Subtotal: R$</span> <span class="total-price">0.00</span> <br>
+                <br><br>
                 <div class="boxbutton" align="center">
                     <button class="empty-cart borda botao botao2">Esvaziar carrinho</button>
                 </div>
-
-                <section class="cart-subtotal">
-                    <span>Subtotal: R$</span> <span class="total-price">0.00</span> <br>
-                </section>
-                <ol class="cart__items"></ol>
             </section>
+
+
         </article>
+
+
+
 
 
 </body>
