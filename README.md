@@ -19,7 +19,7 @@ O projeto tem por objetivo a avaliação e prática dos conhecimentos adquiridos
 - [Habilidades](#habilidades-requeridas)
 - [O que foi desenvolvido](#o-que-foi-desenvolvido)
 - [Tecnologias usadas](#tecnologias-usadas)
-
+- [API](#API)
 ---
 
 ## Habilidades requeridas
@@ -36,7 +36,7 @@ O projeto tem por objetivo a avaliação e prática dos conhecimentos adquiridos
 
 ## O que foi desenvolvido
 
-- Foi criado um site de uma petshop/ecommerce de produtos de cachorro com 4 páginas e interatividade, com dois sliders que trocam fotos e um fale conosco com formulário. Também foram utilizadas 4 tipos de API. 
+- Foi criado um site de uma petshop/ecommerce de produtos de cachorro com 4 páginas e interatividade, com dois sliders que trocam fotos e um fale conosco com formulário. Também foram utilizadas 4 tipos de API (Application Programming Interface). 
 
 
 ---
