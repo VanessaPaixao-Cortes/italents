@@ -160,6 +160,11 @@ article#destaque6 {
     height: 100px;
 }
 
+
+article#destaque7 {
+    margin-top: 1%;
+}
+
 h1#destaque2 {
     color: azure;
 }
@@ -212,6 +217,17 @@ div#produto {
     height: 650px;
     margin-top: 2%;
     background-color: #424242;
+}
+
+.cart__title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contato {
+    width: 100%;
+    background-color: #424242;
+    color: white;
 }
 
 /* slider --------------troca de imagens------------------------------------------- */
@@ -316,6 +332,17 @@ div#produto {
     color: #333;
 }
 
+.botao2 {
+    width: 20%;
+}
+
+
+.boxbutton {
+    margin: 0 auto;
+    width: 50%;
+    /* Valor da Largura */
+
+}
 
 /* Mapa da loja*/
 

@@ -11,7 +11,12 @@
     <link rel="icon" href="img/LOGO3.png" type="image/x-icon" /><!-- Logo marca da aba do navegador -->
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- aplicação responsiva -->
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="store.css" />
+    <script src="./helpers/fetchItem.js" defer></script>
+    <script src="./helpers/fetchProducts.js" defer></script>
+    <script src="./helpers/saveCartItems.js" defer></script>
+    <script src="./helpers/getSavedCartItems.js" defer></script>
+    <script src="./helpers/script.js" defer></script>
 </head>
 
 <!-- Carregamento inicial da função slide1() -->
@@ -79,7 +84,7 @@
 
         <article id="destaque6" class="largura-cheia amarelo imgtext">
             <br>
-            <h2 class="titulocentro">Clique no botão para conhecer nossos clientes</h2>
+            <h2 class="titulocentro">Veja nossa seleção de produtos</h2>
         </article>
 
         <article class="largura-cheia">
@@ -88,16 +93,19 @@
 
         <!-- Segunda seção destaque -->
 
-        <article id="destaque5" class="largura-cheia amarelo">
-            <div class="imgtext">
-                <div align="center">
-                    <img id="cliente" src="" width="500">
+        <article class="largura-cheia contato">
+            <section class="items"></section>
+            <section class="cart">
+                <span class="cart__title">Carrinho de compras</span>
+                <div class="boxbutton" align="center">
+                    <button class="empty-cart borda botao botao2">Esvaziar carrinho</button>
                 </div>
-                <div align="center">
-                    <br><br>
-                    <button type="button" id="btnRand" class="borda botao">Clique AuQui</button>
-                </div>
-            </div>
+
+                <section class="cart-subtotal">
+                    <span>Subtotal: R$</span> <span class="total-price">0.00</span> <br>
+                </section>
+                <ol class="cart__items"></ol>
+            </section>
         </article>
 
 
