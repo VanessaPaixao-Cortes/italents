@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<!-- Vanessa - Cesuca -->
+
+<head>
+    <!-- Informações gerais (metadados) sobre o site, incluindo seu título e links para scripts e folhas de estilos. -->
+    <meta charset="utf-8" /><!--Definição do tipo de codificação usada pela pagina-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Modo de Compatibilidade para o IE -->
+    <title>AuQmia</title><!-- Definição um título para a página-->
+    <link rel="icon" href="img/LOGO3.png" type="image/x-icon" /><!-- Logo marca da aba do navegador -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- aplicação responsiva -->
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<!-- Carregamento inicial da função slide1() -->
+
+<body onLoad="slide1()">
+    <header><!-- -->
+        <a href="index.html">
+            <img class="logo" alt="Logo 1" src="img/LOGO1.png">
+        </a>
+        <!-- Menu contendo os apontamentos para as regiões da página -->
+        <nav id="menu">
+            <ul>
+                <li>
+                    <a href="index.html">Início</a>
+                </li>
+                <li>
+                    <a href="#destaque">Nossa Pet Shop</a>
+                </li>
+                <li>
+                    <a href="#destaque2">Horários</a>
+                </li>
+                <li>
+                    <a href="#destaque3">Nossos Profissionais</a>
+                </li>
+                <li>
+                    <a href="#destaque4">Produtos</a>
+                </li>
+                <li>
+                    <a href="#contato">Entre em contato</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="banner">
+            <img id="troca" class="largura-cheia" alt="banner 1" src="img/banner1.jpg">
+        </div>
+    </header>
+    <section>
+        <h2>&nbsp;</h2>
+
+        <!-- Primeira seção destaque -->
+
+        <article id="destaque" class="largura-cheia amarelo imgtext">
+            <br><br><br>
+            <h2 class="titulocentro"> Nossa Pet Shop</h2>
+        </article>
+
+        <article class="largura-cheia">
+            <div class="quadrado direita">
+
+                <!-- Título-->
+                <h2>LOJA</h2>
+                <p>Medicamentos, rações, caminhas, petiscos, roupinhas, brinquedos e acessórios.</p>
+            </div>
+            <div class="quadradoimg esquerda">
+                <!-- Imagem-->
+                <img class="largura-cheia altura-cheia" alt="loja 1" src="img/LOJA.png">
+            </div>
+
+            <div class="quadradoimg direita">
+                <!-- Imagem-->
+                <img class="largura-cheia altura-cheia" alt="banho 2" src="img/banho2.jpg">
+            </div>
+            <div class="quadrado esquerda">
+                <!-- Título-->
+                <h2>ESTÉTICA</h2>
+                <p>Banho, tosa, hidratação para os pêlos, entre outros serviços.</p>
+            </div>
+
+            <div class="quadrado direita">
+                <!-- Título-->
+                <h2>CLÍNICA</h2>
+                <p>Consultas clínicas, consultas com especialistas, emergências, vacinas.</p>
+            </div>
+            <div class="quadradoimg esquerda">
+                <!-- Imagem-->
+                <img class="largura-cheia altura-cheia" alt="clinica 1" src="img/clinica.jpg">
+            </div>
+        </article>
+
+        <!-- Segunda seção destaque -->
+
+        <article id="destaque2" class="largura-cheia amarelo">
+            <div class="imgtext">
+                <img id="logo2" alt="RELOGIO" src="img/ICON_RELOGIO.png">
+                <h2 class="branco titulocentro"> Horário de Funcionamento:</h2>
+                <p class="branco">Clínica: atendimento 24 horas.
+                <p class="branco">Estética: de segunda à sábado, das 09h às 18h.</p>
+            </div>
+        </article>
+
+        <!-- Terceira seção destaque -->
+
+        <article id="destaque3" class="largura-cheia amarelo imgtext">
+
+            <br><br><br>
+            <h2 class="titulocentro"> Nossos Profissionais</h2>
+
+        </article>
+        <article class="largura-cheia">
+            <div class="quadrado direita">
+
+                <!-- Título-->
+                <h2>DR. ANDRÉIA PENHA DE SOUZA</h2>
+                <p>Médica Veterinária.</p>
+            </div>
+            <div class="quadradoimg esquerda">
+                <img class="largura-cheia altura-cheia" alt="veterinario 1" src="img/veterinario1.jpg">
+            </div>
+            <div class="quadrado esquerda">
+
+                <!-- Título-->
+                <h2>DR. EMILY SANTOS ILHA</h2>
+                <p>Médica Veterinária.</p>
+            </div>
+            <div class="quadradoimg direita">
+                <img class="largura-cheia altura-cheia" alt="veterinario 2" src="img/veterinario2.jpg">
+            </div>
+            <div class="quadrado direita">
+
+                <!-- Título-->
+                <h2>DR. PAULO ROBERTO DE MOURA PADILHA </h2>
+                <p>Médico Veterinária.</p>
+            </div>
+            <div class="quadradoimg esquerda">
+                <img class="largura-cheia altura-cheia" alt="veterinario 3" src="img/veterinario3.jpg">
+            </div>
+        </article>
+
+        <!-- Quarta seção destaque -->
+
+        <article id="destaque4" class="largura-cheia amarelo imgtext">
+            <br><br><br>
+            <h2 class="titulocentro">Nossos produtos</h2>
+        </article>
+
+        <!-- Slides com click para alternar a visualização dos produtos -->
+
+        <article id="produtos" class="largura-cheia">
+            <h2>&nbsp;</h2>
+            <div id="produto">
+                <ul class="slider">
+                    <li>
+                        <input type="radio" id="slide1" name="slide" checked>
+                        <label for="slide1"></label>
+                        <img alt="slider1" src="img/slider1.png" />
+                    </li>
+                    <li>
+                        <input type="radio" id="slide2" name="slide">
+                        <label for="slide2"></label>
+                        <img alt="slider2" src="img/slider2.png" />
+                    </li>
+                    <li>
+                        <input type="radio" id="slide3" name="slide">
+                        <label for="slide3"></label>
+                        <img alt="slider3" src="img/slider3.png" />
+                    </li>
+                </ul>
+            </div>
+        </article>
+
+        <!-- Formulário de contato com campos validados pelo JS -->
+
+        <article id="contato" class="largura-cheia">
+            <div class="quadradocontato esquerda">
+                <br>
+                <br>
+                <h2 class="branco" style="text-align:center; ">Endereço e Contato:</h2>
+                <div style="text-align:center; ">
+
+                    <!-- Link para Google Maps -->
+
+                    <iframe id="mapa"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.702099141301!2d-51.16332708488554!3d-30.01670918189239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951977759e10b277%3A0x765c39402e8d0ff0!2sR.+Ant%C3%B4nio+Joaquim+Mesquita%2C+570+-+Passo+d&#39;Areia%2C+Porto+Alegre+-+RS%2C+91350-180!5e0!3m2!1spt-BR!2sbr!4v1541620150798"
+                        allowfullscreen></iframe>
+                </div>
+                <p class="branco">Endereço: Rua Antônio Joaquim Mesquita 570</p>
+                <p class="branco">Telefone: (51) 9999-9999</p>
+                <p class="branco">WhatsApp: (51) 9999-9999</p>
+                <p class="branco">Email: auqmia@auqmia.com.br</p>
+                <br>
+
+                <!-- Links para redes sociais -->
+
+                <div class="centro">
+                    <a href="https://pt-br.facebook.com/">
+                        <img class="icon" alt="icon 1" src="img/face.png">
+                    </a>
+                </div>
+                <p class="branco">Facebook: auqmia </p>
+                <div class="centro">
+                    <a href="https://www.instagram.com/?hl=pt-br">
+                        <img class="icon" alt="icon 2" src="img/insta.png">
+                    </a>
+                </div>
+                <p class="branco">Instagram: @auqmia</p>
+            </div>
+            <div class="quadradocontato direita">
+                <br>
+                <br>
+                <h2 class="branco" style="text-align:center; margin-right:140px;">Fale conosco:</h2>
+                <form name="form1" class="branco">
+                    <br> Nome:
+                    <br>
+                    <input type="text" size="80" name="nome" id="nome" class="borda">
+                    <br> Email:
+                    <br>
+                    <input type="text" size="80" name="email" id="email" class="borda">
+                    <br> Telefone:
+                    <br>
+                    <input type="text" name="telefone" id="telefone" class="borda">
+                    <br> Endereço:
+                    <br>
+                    <input type="text" size="80" name="endereco" id="endereco" class="borda">
+                    <br> Assunto:
+                    <br>
+                    <input type="text" size="80" name="assunto" id="assunto" class="borda">
+                    <br> Mensagem:
+                    <br>
+                    <textarea name="mensagem" rows="8" cols="73" class="borda"></textarea>
+                    <br>
+                    <br>
+                    <input type="button" value="Enviar" onClick="valida(this.form)" class="borda botao">
+                </form>
+            </div>
+        </article>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="largura-cheia">
+        <div id="centraliza">
+            <img class="logo" alt="LOGO 4" src="img/LOGO4.png">
+            <br>
+            <br>
+            <p class="final"> ©2018 by Vanessa.</p>
+            <p class="final"> CESUCA.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
