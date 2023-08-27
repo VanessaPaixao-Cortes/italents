@@ -24,7 +24,7 @@ O projeto tem por objetivo a avaliação e prática dos conhecimentos adquiridos
 
 ## Habilidades requeridas
 
-- Estrutura HTML5 de no mínimo 3 telas desenvolvidas; 
+- Estrutura HTML5 de no mínimo 3 telas desenvolvidas. 
 
 - Estilização com CSS3 em todas as telas. 
 
@@ -36,13 +36,24 @@ O projeto tem por objetivo a avaliação e prática dos conhecimentos adquiridos
 
 ## O que foi desenvolvido
 
-- Foi criado um site de uma petshop com 4 páginas, uma API para carrinho de compras, uma API que traz fotos de cachorro, dois sliders que trocam fotos e fale conosco com formulário. 
+- Foi criado um site de uma petshop/ecommerce de produtos de cachorro com 4 páginas e interatividade, com dois sliders que trocam fotos e um fale conosco com formulário. Também foram utilizadas 4 tipos de API. 
+
 
 ---
 
 ## Tecnologias usadas
 
 - `javascript`, `css` e `html`.
+
+
+---
+
+## API
+
+- Lorem Picsum - https://picsum.photos/ - Gera imagens aleatórias
+- Image Generator - https://docs.bruzu.com/ - Para adicionar o texto nas fotos dos produto
+- Petstore API - https://petstore-8ad6d224eb11.herokuapp.com/docs - Gera lista de produtos
+- DOG API - https://dog.ceo/dog-api/ 
 
 ---
 
