@@ -70,4 +70,28 @@ function valida(form1) {
 
     return true
 }
+
+function getDog() {
+    fetch('https://dog.ceo/api/breeds/image/random')
+        .then(response => response.json())
+        .then(data => {
+            // Mostra o resultado em um alert
+            cliente = document.getElementById("cliente");
+            cliente.src = data.message;
+        })
+        .catch(error => {
+            console.error('Erro ao buscar a imagem:', error);
+        });
+
+}
+
+// Função que será executada após o carregamento do documento
+document.addEventListener("DOMContentLoaded", function () {
+    getDog();
+});
+
+btnRand = document.getElementById("btnRand");
+btnRand.addEventListener("click", function () {
+    getDog();
+});
     // ##############################

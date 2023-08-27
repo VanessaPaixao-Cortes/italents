@@ -11,7 +11,7 @@
     <link rel="icon" href="img/LOGO3.png" type="image/x-icon" /><!-- Logo marca da aba do navegador -->
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- aplicação responsiva -->
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 
 <!-- Carregamento inicial da função slide1() -->
@@ -47,7 +47,7 @@
 
         <article id="destaque6" class="largura-cheia amarelo imgtext">
             <br>
-            <h2 class="titulocentro">Clique para conhecer nossos clientes</h2>
+            <h2 class="titulocentro">Clique no botão para conhecer nossos clientes</h2>
         </article>
 
         <article class="largura-cheia">
@@ -63,38 +63,13 @@
                 </div>
                 <div align="center">
                     <br><br>
-                    <button type="button" id="btnRand" class="borda botao">Clique</button>
+                    <button type="button" id="btnRand" class="borda botao">Clique AuQui</button>
                 </div>
             </div>
         </article>
 
 
 </body>
-<script type="text/javascript" defer>
-    function getDog() {
-        fetch('https://dog.ceo/api/breeds/image/random')
-            .then(response => response.json())
-            .then(data => {
-                // Mostra o resultado em um alert
-                cliente = document.getElementById("cliente");
-                cliente.src = data.message;
-            })
-            .catch(error => {
-                console.error('Erro ao buscar a imagem:', error);
-            });
-
-    }
-
-    // Função que será executada após o carregamento do documento
-    document.addEventListener("DOMContentLoaded", function () {
-        getDog();
-    });
-
-    btnRand = document.getElementById("btnRand");
-    btnRand.addEventListener("click", function () {
-        getDog();
-    });
-</script>
 
 </section>
 
